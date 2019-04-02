@@ -17,15 +17,7 @@
     <div id="app">
         <div class="statusbar"></div>
         <div class="view view-main view-init ios-edges" data-url="/">
-        <div class="page" style="
-
-          background-image: url('../img/tech.png');
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-
-
-        ">
+        <div class="page">
             <div class="navbar">
                 <div class="navbar-inner">
 
@@ -56,6 +48,25 @@
 
                     
                 </div>
+
+                <div class="subnavbar">
+                        <div class="subnavbar-inner row">
+                          <div class="segmented segmented-raised">
+                          
+                            <button data-popover=".popover-menu" class="col-70 button button-fill color-white text-color-blue popover-open">Filter</button>
+
+                            <a class="col-30 button button-raised button-fill bg-color-orange sheet-open" data-sheet=".demo-sheet">RANGE</a>
+
+
+                          </div>
+
+
+                          
+
+                        </div>
+                    </div>
+
+
             </div>
 
             <div class="page-content">
@@ -66,28 +77,7 @@
                     <ul>
 
 
-                      <li class="card">
-                            <a class="item-content item-link" href="/sti/">
-                              <div class="item-media"><img data src="img/sti.png"></div>
-                              <div class="item-inner">
-                                <div class="item-title"><strong>STI</strong>
-                                <div class="item-subtitle">Dagupan, Pangasinan</div>
-                                    <p class="display-none">
-                                      sti
-                                      Bachelor of Science in Tourism Management (BSTM)
-                                      Bachelor of Science in Accounting Information System (BSAIS)
-                                      Bachelor of Arts in Communication (BACOMM)
-                                      Bachelor of Science in Hospitality Management (BSHM)
-                                      Bachelor of Multimedia Arts (BMMA)
-                                      Bachelor of Science in Information Technology (BSIT)
-                                      2 - yr. Hospitality and Restaurant Services (HRS)
-
-
-                                    </p>
-                                </div>
-                              </div>
-                            </a>
-                        </li>
+                     
                       
                         <li class="card">
 
@@ -95,7 +85,12 @@
                               <div class="item-media"><img data src="img/psu.png"></div>
                               <div class=" item-inner">
                                 <div class="item-title"><strong>Pangasinan State University</strong>
-                                  <div class="item-subtitle">Lingayen, Alaminos, Asingan, Bayambang, Binmaley, Infanta, San Carlos, Sta. Maria, Urdaneta Pangasinan</div>
+                                  <div class="item-subtitle">
+                                   (Free Tuition Fee) Lingayen, Alaminos Pangasinan
+
+                                    
+
+                                  </div>
 
             
 
@@ -529,74 +524,9 @@
                             </a>
                         </li>
 
-                        <li class="card">
-                            <a class="item-content item-link" href="/ama/">
-                              <div class="item-media"><img data src="img/ama.png"></div>
-                              <div class="item-inner">
-                                <div class="item-title"><strong>AMA</strong>
-                                <div class="item-subtitle">Dagupan, Pangasinan</div>
-                                    <p class="display-none">
-
-                                      College of Business Administration
-                                      Bachelor of Science in Business Administration
-                                      College of Engineering
-                                       Bachelor of Science in Computer Engineering
-                                       Bachelor of Science in Electronics and Communication Engineering
-                                       College of Computer Studies
-                                       Bachelor of Science in Computer Science
-                                       Bachelor of Science in Information Technology
-                                      
-                                    </p>
-                                </div>
-                              </div>
-                            </a>
-                        </li>
-
                         
 
-                        <li class="card">
-                            <a class="item-content item-link" href="/pamma/">
-                              <div class="item-media"><img data src="img/pamma.png"></div>
-                              <div class="item-inner">
-                                <div class="item-title"><strong>PAMMA</strong>
-                                <div class="item-subtitle">Dagupan, Pangasinan</div>
-                                    <p class="display-none">
-                                      pamma
-
-                                       1 - Year Auto Diesel Mechanics
-                                       1 - Year Seafarers Rating Deck
-                                       1 - Year Seafarers Rating Engine
-                                       1 - Year Seafarers Rating Stewarding
-                                       Caregiving NC II (ladderized BSN - MOA with LNU)
-                                       Health Care Services NC II (ladderized BSN - MOA with LNU)
-                                    </p>
-                                </div>
-                              </div>
-                            </a>
-                        </li>
-
-                        <li class="card">
-                            <a class="item-content item-link" href="/golden_west/">
-                              <div class="item-media"><img data src="img/golden_west.png"></div>
-                              <div class="item-inner">
-                                <div class="item-title"><strong>Golden West Colleges</strong>
-                                <div class="item-subtitle">Alaminos, Pangasinan</div>
-                                    <p class="display-none">
-                                        gwc
-
-                                         Bachelor of Science in Civil Engineering
-                                         Bachelor of Elementary Education
-                                         Bachelor of Science in Industrial Education
-                                         Bachelor of Secondary Education
-                                          Bachelor of Science in Computer Science
-                                          Bachelor of Science in Information Technology
-                                          Bachelor of Science in Accountancy
-                                          Bachelor of Science in Commerce
-                                    </p>
-                                </div>
-                              </div>
-                            </a>
-                        </li>
+                       
 
                     </ul>
                 </div>
@@ -604,6 +534,181 @@
 
 
             </div>
+
+
+            <div class="popover popover-menu popover-on-bottom" style="display: none; top: 88px; left: 76px;">
+                <div class="popover-angle"></div>
+                <div class="popover-inner">
+                        
+                    <div class="block">
+                      <div class="block"><a class="button button-fill button-small bg-color-red" href="/">Default</a></div>
+                      <div class="block-header">Location</div>
+
+                        <div class="list components-list">
+                          <ul>
+                            <li>
+                              <a class="item-content item-link" href="/lingayen/">
+                                <div class="item-inner">
+                                  <div class="item-title">Lingayen
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/dagupan/">
+                                <div class="item-inner">
+                                  <div class="item-title">Dagupan
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/lingayen/">
+                                <div class="item-inner">
+                                  <div class="item-title">Alaminos
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+
+
+
+
+                          </ul>
+                        
+                        </div>
+                    </div>
+
+                    <div class="block">
+                      <div class="block-header">Courses</div>
+                        <div class="list components-list">
+                          <ul>
+                            <li>
+                              <a class="item-content item-link" href="/business/">
+                                <div class="item-inner">
+                                  <div class="item-title">Business
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/tech/">
+                                <div class="item-inner">
+                                  <div class="item-title">Technology
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/edu/">
+                                <div class="item-inner">
+                                  <div class="item-title">Education
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/agri/">
+                                <div class="item-inner">
+                                  <div class="item-title">Agriculture
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/hm/">
+                                <div class="item-inner">
+                                  <div class="item-title">Hospitality Management
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                             <li>
+                              <a class="item-content item-link" href="/med/">
+                                <div class="item-inner">
+                                  <div class="item-title">Medicine
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                    </div>
+                        
+                    
+
+
+
+                  </div>
+                </div>
+
+
+
+                
+              </div></div></div>
+              <div class="sheet-backdrop"></div><div class="popup-backdrop"></div><div class="popover-backdrop"></div></div>
+        
+
+              <div class="sheet-modal demo-sheet">
+              <div class="toolbar">
+                <div class="toolbar-inner">
+                  <div class="left"></div>
+                  <div class="right">
+                    <a class="link sheet-close">Close</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sheet-modal-inner">
+                <div class="page-content">
+                  <div class="block">
+                      <div class="block-header">TUITION FEE RANGE</div>
+                        <div class="list components-list">
+                          <ul>
+                            <li>
+                              <a class="item-content item-link" href="/">
+                                <div class="item-inner">
+                                  <div class="item-title">P0-P10,000
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/">
+                                <div class="item-inner">
+                                  <div class="item-title">P10,000-P20,000
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="item-content item-link" href="/">
+                                <div class="item-inner">
+                                  <div class="item-title">P20,000-P30,000
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+
+                          </ul>
+                        </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
         </div>
 
 

@@ -332,9 +332,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
   height: 100%;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
- /* background: url("../img/tech.png") 
+  background: url("../img/tech.jpg") 
   no-repeat center center fixed !important;
-  background-size: cover !important;*/
+  background-size: cover !important;
 }
 .page.stacked {
   display: none;
@@ -13253,8 +13253,10 @@ html.with-statusbar.device-iphone-x .panel {
 .card {
   background: #fff;
   position: relative;
-  border-radius: 4px;
+  border-radius: 10px;
   font-size: 14px;
+  opacity: 0.9;
+
 }
 .card .list,
 .card .block {

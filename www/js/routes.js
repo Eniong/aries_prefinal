@@ -66,6 +66,54 @@ var routes = [
     name: 'golden_West',
   },
 
+  {
+    path: '/lingayen/',
+    url: './pages/lingayen.html',
+    name: 'lingayen',
+  },
+
+  {
+    path: '/dagupan/',
+    url: './pages/dagupan.html',
+    name: 'dagupan',
+  },
+
+   {
+    path: '/business/',
+    url: './pages/business.html',
+    name: 'business',
+  },
+
+  {
+    path: '/tech/',
+    url: './pages/tech.html',
+    name: 'tech',
+  },
+
+  {
+    path: '/edu/',
+    url: './pages/edu.html',
+    name: 'edu',
+  },
+
+  {
+    path: '/agri/',
+    url: './pages/agri.html',
+    name: 'agri',
+  },
+
+  {
+    path: '/hm/',
+    url: './pages/hm.html',
+    name: 'hm',
+  },
+
+  {
+    path: '/med/',
+    url: './pages/med.html',
+    name: 'med',
+  },
+
   // Right Panel pages
   {
     path: '/panel-right-1/',
